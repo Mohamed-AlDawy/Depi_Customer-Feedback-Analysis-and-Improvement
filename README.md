@@ -16,8 +16,11 @@ Data Integration (ETL, Data Warehousing)
 Architecture Overview:
 
 Bronze Layer (Staging): Loading raw customer feedback data into Azure SQL database.
+
 Silver Layer (Cleansed Data): Preprocessing the data (removing nulls, duplicates, normalizing).
+
 Gold Layer (Final Analytics): Organizing the data into a star schema to enable fast analysis.
+
 
 ETL Process: Python is used for data extraction and transformation, and then it is loaded into the Azure SQL database.
 
